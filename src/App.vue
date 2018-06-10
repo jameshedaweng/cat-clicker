@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    
+    <h1>Cat Clicker</h1>
   </div>
 </template>
 
@@ -14,14 +14,6 @@ export default {
 }
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #000000;
-  background-color: #FFFFFF;
-  margin-top: 60px;
-}
+<style lang="scss">
+  @import './src/assets/scss/pages/index';
 </style>
