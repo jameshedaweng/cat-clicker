@@ -1,0 +1,22 @@
+@import "../helpers/all";
+
+.cat-list{
+  background: $white;
+  box-shadow: 2px 1px 15px 0px $shadow;
+  flex-direction: column;
+  margin: 10px;
+  width: 300px;
+  padding: 10px 0px;
+  .cat-list-item{
+    cursor: pointer;
+    padding: 10px 15px;
+    font-size: 16px;
+    &:hover{
+      background-color: $bgGray;
+    }
+    &.active{
+      background-color: $theme1;
+      color: $white;
+    }
+  }
+}
