@@ -1,0 +1,12 @@
+@import "../helpers/all";
+
+.cat-container{
+  padding: 15px;
+  background: $white;
+  box-shadow: 2px 1px 15px 0px $shadow;
+  flex: 1;
+  .cat-image{
+    width: 300px;
+    height: auto;
+  }
+}
