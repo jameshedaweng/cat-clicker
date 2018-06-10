@@ -6,5 +6,21 @@
   {
     "name": "Cute Cat",
     "file": "cute-cat.jpg"
+  },
+  {
+    "name": "Hairless Cat",
+    "file": "hairless-cat.jpg"
+  },
+  {
+    "name": "Persian Cat",
+    "file": "persian-cat.jpg"
+  },
+  {
+    "name": "Grumpy Cat",
+    "file": "grumpy-cat.jpg"
+  },
+  {
+    "name": "Nyan Cat",
+    "file": "nyan-cat.jpg"
   }
 ]
