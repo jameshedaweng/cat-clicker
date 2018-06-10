@@ -4,9 +4,21 @@
   padding: 15px;
   background: $white;
   box-shadow: 2px 1px 15px 0px $shadow;
-  flex: 1;
+  flex: 0;
+  flex-direction: column;
+  margin: 10px;
   .cat-image{
     width: 300px;
-    height: auto;
+    height: 300px;
+    object-fit: cover;
+  }
+  .cat-info{
+    color: $textGray;
+    .cat-count{
+      font-family: 'Avenir', Helvetica, Arial, sans-serif;
+      font-weight: 700;
+      font-size: 24px;
+      color: $theme1;
+    }
   }
 }
